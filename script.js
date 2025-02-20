@@ -65,10 +65,10 @@ function getRandomAuction() {
 
 
 
-            🛒 <strong>${itemName}</strong><br>
-            💰 Price: ${itemPrice} coins<br>
-            ⏳ Ends at: ${auctionEnd}<br>
-            ⏳ Time left: ${timeLeftString}<br>
+             <strong>${itemName}</strong><br>
+             Price: ${itemPrice} coins<br>
+             Ends at: ${auctionEnd}<br>
+             Time left: ${timeLeftString}<br>
             ${isBin}
         `;
     };
